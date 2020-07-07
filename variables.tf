@@ -24,7 +24,7 @@ variable "project_id" {
 variable "region" {
   description = "The GCP region to create and test resources in"
   type        = string
-  default     = "some bull"
+  default     = 'null'
 }
 
 variable "subnetwork" {
